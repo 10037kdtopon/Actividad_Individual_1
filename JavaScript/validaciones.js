@@ -29,7 +29,6 @@ function boton() {
     myButton.textContent = "Enviando datos ..........";
 
     setTimeout(function () {
-        //console.log('Espera por favor...');
         myButton.textContent = "Datos enviados";
         myButton.style.opacity = 1;
         myButton.disabled = false;
